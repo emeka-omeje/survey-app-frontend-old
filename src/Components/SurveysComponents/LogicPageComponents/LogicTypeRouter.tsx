@@ -9,7 +9,8 @@ import DefaultPrefilLogic from "./LogicTypeDisplayComponents/DefaultPrefilCompon
 import QuotasLogic2 from "./LogicTypeDisplayComponents/QuotasComponents/QuotasPanel2";
 // import RandomisationLogic from "./LogicTypeDisplayComponents/Randomisation_logic";
 // import ValidationLogic from "./LogicTypeDisplayComponents/Validation_logic";
-import TestModeLogic from "./LogicTypeDisplayComponents/Test_Mode_logic";
+// import TestModeLogic from "./LogicTypeDisplayComponents/Test_Mode_logic";
+import TestRunner from "./LogicTypeDisplayComponents/TestComponents1/TestRunner";
 // import LogicTypeHeader from "./LogicTypeDisplayComponents/LogicTypeHeaderComponents/LogicTypeHeader";
 
 const LogicTypeRouter: React.FC = () => {
@@ -35,7 +36,7 @@ const LogicTypeRouter: React.FC = () => {
       // ) : logicNavBTNLabel === "Validation" ? (
       //   <ValidationLogic />
       ) : logicNavBTNLabel === "Test Mode" ? (
-        <TestModeLogic />
+        <TestRunner />
       ) : null}
     </div>
   );
